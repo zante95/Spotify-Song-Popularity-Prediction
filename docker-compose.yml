@@ -1,0 +1,17 @@
+version: "3"
+services:
+  jupyter:
+    build: .
+    command: >
+      start-notebook.sh
+      --notebook-dir /home/jovyan/workspace
+      --ip='*'
+      --NotebookApp.token=''
+      --NotebookApp.password=''
+    ports:
+     - "8888:8888"
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    volumes:
+      - ./workspace:/home/jovyan/workspace
+
