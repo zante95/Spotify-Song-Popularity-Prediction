@@ -13,6 +13,15 @@ Repository for our COSC 3337 (Data Science I) project.
 - Johanes Limano
 - Martin Lopez
 
+Possible datasets:
+
+- https://www.kaggle.com/sudalairajkumar/covid19-in-usa
+- https://www.kaggle.com/nadintamer/top-spotify-tracks-of-2018
+- https://www.kaggle.com/nadintamer/top-spotify-tracks-of-2017
+- https://www.kaggle.com/nadintamer/top-spotify-tracks-of-2017
+
+Spotify stats analysis for seasonal depression?
+
 ----
 
 **Development section**
