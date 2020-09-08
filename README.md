@@ -20,6 +20,8 @@ Possible datasets:
 - https://www.kaggle.com/nadintamer/top-spotify-tracks-of-2017
 - https://www.kaggle.com/nadintamer/top-spotify-tracks-of-2017
 
+- https://www.kaggle.com/jerzydziewierz/bee-vs-wasp?
+
 - https://steam.internet.byu.edu/
 
 Spotify stats analysis for seasonal depression?
