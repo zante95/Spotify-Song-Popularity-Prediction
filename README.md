@@ -13,20 +13,13 @@ Repository for our COSC 3337 (Data Science I) project.
 - Johanes Limano
 - Martin Lopez
 
-Possible datasets:
-
-- https://www.kaggle.com/sudalairajkumar/covid19-in-usa
-- https://www.kaggle.com/nadintamer/top-spotify-tracks-of-2018
-- https://www.kaggle.com/nadintamer/top-spotify-tracks-of-2017
-- https://www.kaggle.com/nadintamer/top-spotify-tracks-of-2017
-
-- https://www.kaggle.com/jerzydziewierz/bee-vs-wasp
-
-- https://steam.internet.byu.edu/
-
-Spotify stats analysis for seasonal depression?
-
 ----
+
+Recommendation engine by clustering songs based on common features.
+
+Tasks for each week:
+
+- [Week 06](tasks/week-06.md).
 
 **Development section**
 
@@ -37,6 +30,16 @@ can be found under the [workspace](workspace) folder.
 
 **Please note** that we **do not** store data in this repository, however, we
 provide scripts to fetch those as needed.
+
+## Datasets
+
+The datasets that we are gonna use are the following:
+
+- https://www.kaggle.com/leonardopena/top-spotify-songs-from-20102019-by-year
+- https://www.kaggle.com/nadintamer/top-tracks-of-2017
+- https://www.kaggle.com/nadintamer/top-spotify-tracks-of-2018
+- https://www.kaggle.com/leonardopena/top50spotify2019
+- https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks
 
 ## Folder and file structure
 
