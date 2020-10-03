@@ -21,8 +21,6 @@ Tasks for each week:
 
 - [Week 06](tasks/week-06.md).
 
-**Development section**
-
 ## Overview
 
 This repository contains most of the files related to our COSC 3337 project, they
@@ -41,19 +39,34 @@ The datasets that we are gonna use are the following:
 - https://www.kaggle.com/leonardopena/top50spotify2019
 - https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks
 
+In order to download them follow the steps:
+
+1. Make sure your Jupyter Lab instance is up and running.
+
+2. Go to `localhost:8888`.
+
+3. Launch a new terminal in Jupyter Lab (File -> New Launcher -> Other -> Terminal).
+
+4. Go to the workspace folder by running `cd ~/workspace`.
+
+5. Download the datasets by running `./download-datasets.sh`.
+
+6. All the CSV files should now be in the `~/workspace/resources` folder.
+
 ## Folder and file structure
 
 - `workspace/`: Contains most of our files directly related to our project.
 
 - `workspace/resources`: Contains the dataset(s) used in our project.
 
-- `docker-compose.yml`: [Docker compose][docker-compose] file that we use for
-  spinning up our development environment.
+- `workspace/download-datasets.sh`: Script for downloading the datasets, should
+be run inide the Jupyter Lab terminal.
 
-- `download-resources.sh`: Scripts for downloading the dataset(s).
+- `docker-compose.yml`: [Docker compose][docker-compose] file that we use for
+spinning up our development environment.
 
 - `.gitignore`: [gitignore][gitignore] file to keep our repository clean. Please
-  do not modify unless you know what you are doing.
+do not modify unless you know what you are doing.
 
 ## Development
 

@@ -1,5 +1,6 @@
 version: "3"
 services:
+
   jupyter:
     build: .
     command: >
@@ -13,5 +14,6 @@ services:
     environment:
       - JUPYTER_ENABLE_LAB=yes
     volumes:
+      - ./kaggle.json:/home/jovyan/.kaggle/kaggle.json
       - ./workspace:/home/jovyan/workspace
 
