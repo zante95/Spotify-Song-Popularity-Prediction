@@ -1,2 +1,3 @@
 # see: https://docs.github.com/en/free-pro-team@latest/github/using-git/configuring-git-to-handle-line-endings
+* text=auto
 *.sh text eol=lf
