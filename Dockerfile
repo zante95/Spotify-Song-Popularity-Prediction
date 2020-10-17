@@ -3,5 +3,6 @@
 #
 
 FROM jupyter/scipy-notebook
-RUN pip install -U kaggle
+ENV PYTHONPATH "/home/jovyan/workspace:$JUPYTER_PATH"
+RUN pip install -U kaggle pytest
 
