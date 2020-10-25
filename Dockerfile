@@ -4,5 +4,5 @@
 
 FROM jupyter/scipy-notebook
 ENV PYTHONPATH "/home/jovyan/workspace:$JUPYTER_PATH"
-RUN pip install -U kaggle pytest
+RUN pip install -U kaggle pytest fuzzywuzzy[speedup] imbalanced-learn
 
