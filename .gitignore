@@ -449,3 +449,5 @@ workspace/resources/*
 !workspace/resources/.keep
 !workspace/resources/tracks-2010-2019-topcharts.csv
 
+workspace/submissions/tree.dot
+workspace/submissions/tree.png
